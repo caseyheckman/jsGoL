@@ -1,0 +1,24 @@
+
+.space {
+    border-collapse: collapse;
+    border: 1px solid #EEEEEE;
+    /*
+    border-width: 0 0 1px 1px;
+    */
+}
+
+.space td {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    padding: 0px;
+    /*
+    border: 1px solid #EEEEEE;
+    border-width: 1px 1px 0 0;
+    */
+    border: 0;
+}
+
+.space td.alive {
+    background-color: #444444;
+}
